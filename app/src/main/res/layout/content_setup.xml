@@ -94,11 +94,22 @@
                 android:id="@+id/sexTitle"
                 android:layout_margin="20px" />
 
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/txtSex"
-                android:layout_weight="1" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnMale"
+                    android:text="Male"
+                    android:checked="true" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnFemale"
+                    android:text="Female"/>
+            </RadioGroup>
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
@@ -137,7 +148,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal"
                 android:ems="10"
-                android:id="@+id/weight"
+                android:id="@+id/txtWeight"
                 android:layout_weight="1" />
         </LinearLayout>
 

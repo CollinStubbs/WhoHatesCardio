@@ -11,6 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="368c7adf-7454-4a3f-ae69-f0dea7cda36f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/whohatescardio/stubbsnation/whohatescardio/SetupActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/whohatescardio/stubbsnation/whohatescardio/SetupActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_setup.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_setup.xml" />
     </list>
     <ignored path="WhoHatesCardio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,11 +56,11 @@
       <file leaf-file-name="SetupActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/whohatescardio/stubbsnation/whohatescardio/SetupActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49569708">
-              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.7125645">
+              <caret line="39" column="97" selection-start-line="39" selection-start-column="97" selection-end-line="39" selection-end-column="97" />
               <folding>
-                <element signature="e#1096#1417#0" expanded="true" />
-                <element signature="e#1416#1417#0" expanded="true" />
+                <element signature="e#1162#1969#0" expanded="true" />
+                <element signature="e#1968#1969#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,7 +104,7 @@
           </provider>
           <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="151" column="17" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="17" />
+              <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
               <folding>
                 <element signature="e#262#297#0" expanded="true" />
                 <element signature="e#323#358#0" expanded="true" />
@@ -1673,9 +1674,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/whohatescardio/stubbsnation/whohatescardio/EnterItemActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/whohatescardio/stubbsnation/whohatescardio/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_setup.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/whohatescardio/stubbsnation/whohatescardio/User.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_setup.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/whohatescardio/stubbsnation/whohatescardio/SetupActivity.java" />
       </list>
     </option>
@@ -2293,22 +2294,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_setup.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="151" column="17" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="17" />
-          <folding>
-            <element signature="e#262#297#0" expanded="true" />
-            <element signature="e#323#358#0" expanded="true" />
-            <element signature="e#382#415#0" expanded="true" />
-            <element signature="e#442#475#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/whohatescardio/stubbsnation/whohatescardio/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2338,13 +2323,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_setup.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding>
+            <element signature="e#262#297#0" expanded="true" />
+            <element signature="e#323#358#0" expanded="true" />
+            <element signature="e#382#415#0" expanded="true" />
+            <element signature="e#442#475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/whohatescardio/stubbsnation/whohatescardio/SetupActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49569708">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.7125645">
+          <caret line="39" column="97" selection-start-line="39" selection-start-column="97" selection-end-line="39" selection-end-column="97" />
           <folding>
-            <element signature="e#1096#1417#0" expanded="true" />
-            <element signature="e#1416#1417#0" expanded="true" />
+            <element signature="e#1162#1969#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
           </folding>
         </state>
       </provider>

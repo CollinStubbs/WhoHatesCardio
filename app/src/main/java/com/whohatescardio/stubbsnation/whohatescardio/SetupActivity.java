@@ -8,6 +8,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RadioButton;
+import android.widget.Spinner;
+import android.widget.TextView;
 
 public class SetupActivity extends AppCompatActivity {
     private final int NEW_USER = 1;
@@ -29,7 +32,14 @@ public class SetupActivity extends AppCompatActivity {
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //TODO: Grab all the values of the form
+                //Grab all the values of the form
+                String name = ((TextView)findViewById(R.id.txtName)).getText().toString();
+                int age = Integer.parseInt(((TextView) findViewById(R.id.txtAge)).getText().toString());
+                float height = Float.parseFloat(((TextView) findViewById(R.id.txtHeight)).getText().toString());
+                char sex = ((RadioButton) findViewById(R.id.btnMale)).isChecked() ? 'm' : 'f';
+                String levelOfActivity = ((Spinner) findViewById(R.id.spinner)).getSelectedItem().toString();
+                float weight = Float.parseFloat(((TextView) findViewById(R.id.txtWeight)).getText().toString());
+
 
 
                 //TODO: Create a user object

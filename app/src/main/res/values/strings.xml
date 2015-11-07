@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">WhoHatesCardio</string>
     <string name="subscription_key">9534b72bdbaf4345a42934b1117507a3</string>
+    <string name="title_activity_setup">SetupActivity</string>
 </resources>

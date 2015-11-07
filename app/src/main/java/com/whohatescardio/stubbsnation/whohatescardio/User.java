@@ -10,6 +10,7 @@ public class User {
     private char   sex;
     private float  age;
     private float  weight;
+    private float  height;
     private float  activityLevelFactor;
 
     private HashMap<String,Float> alf;
@@ -23,7 +24,7 @@ public class User {
         alf.put("extremelyActive",(float)1.9);
     }
 
-    public User(String name, char sex, int age, float weight, String activityLevelFactor){
+    public User(String name, char sex, int age, float weight, float height, String activityLevelFactor){
         this.alf = new HashMap<>();
         alf.put("sedentary",(float)1.2);
         alf.put("lightlyActive",(float)1.375);
@@ -35,6 +36,7 @@ public class User {
         setSex(sex);
         setAge(age);
         setWeight(weight);
+        setHeight(height);
         setActivityLevelFactor(activityLevelFactor);
     }
 
@@ -65,6 +67,9 @@ public class User {
     }
     private void setWeight(float w){
         this.weight = w;
+    }
+    private void setHeight(float h){
+        this.height = h;
     }
     private void setActivityLevelFactor(String act){
         float alf = this.alf.get(act);

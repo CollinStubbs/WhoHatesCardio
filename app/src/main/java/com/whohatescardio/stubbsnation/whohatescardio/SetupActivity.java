@@ -56,8 +56,8 @@ public class SetupActivity extends AppCompatActivity {
 
 
 
-                //TODO: Create a user object
-                User user = new User(name, sex, age, weight, levelOfActivity);
+                //Create a user object
+                User user = new User(name, sex, age, weight, height, levelOfActivity);
 
                 //TODO: Create an async task to save the new user to a database
             }

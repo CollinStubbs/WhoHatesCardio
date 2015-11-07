@@ -21,8 +21,6 @@
         </activity>
         <activity android:name=".TakePhoto" >
         </activity>
-        <activity android:name=".EnterItemActivity" >
-        </activity>
     </application>
 
 </manifest>

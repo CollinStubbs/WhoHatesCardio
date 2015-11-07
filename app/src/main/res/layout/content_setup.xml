@@ -42,7 +42,7 @@
                 android:inputType="textPersonName"
                 android:text="Name"
                 android:ems="10"
-                android:id="@+id/editText"
+                android:id="@+id/txtName"
                 android:layout_weight="1" />
         </LinearLayout>
         <LinearLayout
@@ -61,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="number"
                 android:ems="10"
-                android:id="@+id/editText2"
+                android:id="@+id/txtAge"
                 android:layout_weight="1" />
         </LinearLayout>
         <LinearLayout
@@ -80,7 +80,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal"
                 android:ems="10"
-                android:id="@+id/editText3"
+                android:id="@+id/txtHeight"
                 android:layout_weight="1" />
         </LinearLayout>
         <LinearLayout
@@ -97,7 +97,7 @@
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/editText4"
+                android:id="@+id/txtSex"
                 android:layout_weight="1" />
         </LinearLayout>
         <LinearLayout
@@ -137,7 +137,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal"
                 android:ems="10"
-                android:id="@+id/editText5"
+                android:id="@+id/weight"
                 android:layout_weight="1" />
         </LinearLayout>
 

@@ -23,6 +23,21 @@ public class User {
         alf.put("extremelyActive",(float)1.9);
     }
 
+    public User(String name, char sex, int age, float weight, float activityLevelFactor){
+        this.alf = new HashMap<>();
+        alf.put("sedentary",(float)1.2);
+        alf.put("lightlyActive",(float)1.375);
+        alf.put("moderatelyActive",(float)1.55);
+        alf.put("veryActive",(float)1.725);
+        alf.put("extremelyActive",(float)1.9);
+
+        setName(name);
+        setSex(sex);
+        setAge(age);
+        setWeight(weight);
+        setActivityLevelFactor(activityLevelFactor);
+    }
+
     private String getName(){
         return this.name;
     }

@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">WhoHatesCardio</string>
+    <string name="totalCal">Total Calories: </string>
+    <string name="kmsTo"> KMs To </string>
+    <string name="scan">Import Calories</string>
 </resources>

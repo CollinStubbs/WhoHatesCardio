@@ -23,7 +23,7 @@ public class User {
         alf.put("extremelyActive",(float)1.9);
     }
 
-    public User(String name, char sex, int age, float weight, float activityLevelFactor){
+    public User(String name, char sex, int age, float weight, String activityLevelFactor){
         this.alf = new HashMap<>();
         alf.put("sedentary",(float)1.2);
         alf.put("lightlyActive",(float)1.375);

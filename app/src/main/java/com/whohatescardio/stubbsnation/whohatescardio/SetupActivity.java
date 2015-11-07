@@ -1,5 +1,6 @@
 package com.whohatescardio.stubbsnation.whohatescardio;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -11,6 +12,7 @@ import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class SetupActivity extends AppCompatActivity {
     private final int NEW_USER = 1;
@@ -34,16 +36,28 @@ public class SetupActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //Grab all the values of the form
                 String name = ((TextView)findViewById(R.id.txtName)).getText().toString();
-                int age = Integer.parseInt(((TextView) findViewById(R.id.txtAge)).getText().toString());
-                float height = Float.parseFloat(((TextView) findViewById(R.id.txtHeight)).getText().toString());
+                String unparsedAge = ((TextView) findViewById(R.id.txtAge)).getText().toString();
+                String unparsedHeight = ((TextView) findViewById(R.id.txtHeight)).getText().toString();
+                String unparsedWeight = ((TextView) findViewById(R.id.txtWeight)).getText().toString();
+
+                if(name == null || unparsedAge == null || unparsedHeight == null || unparsedWeight == null){
+                    Context context = getApplicationContext();
+                    CharSequence text = "Please fill out form completely";
+                    int duration = Toast.LENGTH_SHORT;
+                    Toast toast = Toast.makeText(context, text, duration);
+                    toast.show();
+                    return;
+                }
+                int age = Integer.parseInt(unparsedAge);
+                float height = Float.parseFloat(unparsedHeight);
                 char sex = ((RadioButton) findViewById(R.id.btnMale)).isChecked() ? 'm' : 'f';
                 String levelOfActivity = ((Spinner) findViewById(R.id.spinner)).getSelectedItem().toString();
-                float weight = Float.parseFloat(((TextView) findViewById(R.id.txtWeight)).getText().toString());
+                float weight = Float.parseFloat(unparsedWeight);
 
 
 
                 //TODO: Create a user object
-
+                User user = new User(name, sex, age, weight, levelOfActivity);
 
                 //TODO: Create an async task to save the new user to a database
             }

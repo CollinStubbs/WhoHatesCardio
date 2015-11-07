@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="368c7adf-7454-4a3f-ae69-f0dea7cda36f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/whohatescardio/stubbsnation/whohatescardio/SetupActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/whohatescardio/stubbsnation/whohatescardio/SetupActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_setup.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_setup.xml" />
     </list>
     <ignored path="WhoHatesCardio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,11 +55,11 @@
       <file leaf-file-name="SetupActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/whohatescardio/stubbsnation/whohatescardio/SetupActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7125645">
-              <caret line="39" column="97" selection-start-line="39" selection-start-column="97" selection-end-line="39" selection-end-column="97" />
+            <state vertical-scroll-proportion="0.40275386">
+              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
               <folding>
-                <element signature="e#1162#1969#0" expanded="true" />
-                <element signature="e#1968#1969#0" expanded="true" />
+                <element signature="e#1162#2427#0" expanded="true" />
+                <element signature="e#2426#2427#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2341,11 +2340,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/whohatescardio/stubbsnation/whohatescardio/SetupActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7125645">
-          <caret line="39" column="97" selection-start-line="39" selection-start-column="97" selection-end-line="39" selection-end-column="97" />
+        <state vertical-scroll-proportion="0.40275386">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
           <folding>
-            <element signature="e#1162#1969#0" expanded="true" />
-            <element signature="e#1968#1969#0" expanded="true" />
+            <element signature="e#1162#2427#0" expanded="true" />
+            <element signature="e#2426#2427#0" expanded="true" />
           </folding>
         </state>
       </provider>
